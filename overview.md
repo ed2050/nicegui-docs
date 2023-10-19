@@ -44,4 +44,8 @@ If you want more customization in your app, you can use the underlying Tailwind 
 
 # Contents
 
-The remaining pages in this section provide examples of the concepts above.  Read through them to see how nicegui code fits together to build a complete app.
+The remaining pages in this section provide examples of the concepts above by building a simple app.  Read through them to see how nicegui code fits together.  Then reference the other sections for more details.
+
+_include TOC here_
+
+[Next -->](overview-text-elements.md)
