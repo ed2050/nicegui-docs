@@ -8,7 +8,7 @@ This guide explains how to use nicegui.  Section 1 contains an overview of niceg
 
 # Basic concepts
 
-Nicegui provides UI components such as buttons, sliders, text, images, charts, and more.  Your app assembles these components into _pages_.  When the user interacts with an item on a page, nicegui triggers an _event_ (or _action_).  You define code to _handle_ each event, such as what to do when a user clicks a button named `Go`.
+Nicegui provides UI _components_ (or _elements_) such as buttons, sliders, text, images, charts, and more.  Your app assembles these components into _pages_.  When the user interacts with an item on a page, nicegui triggers an _event_ (or _action_).  You define code to _handle_ each event, such as what to do when a user clicks a button named `Go`.
 
 Components are arranged on a page using _layouts_.  Layouts provide things like grids, tabs, carousels, expansions, menus, and other tools to arrange your components.  Many components are linked to a _model_ (data object) in your code, which automatically updates the user interface when the value changes.
 
