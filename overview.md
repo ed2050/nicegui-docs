@@ -46,6 +46,27 @@ If you want more customization in your app, you can use the underlying Tailwind 
 
 The remaining pages in this section provide examples of the concepts above by building a simple app.  Read through them to see how nicegui code fits together.  Then reference the other sections for more details.
 
-_include TOC here_
+1. Overview (this page)
+   1. [Text Elements Intro](overview-text-elements.md)
+   2. [Controls Intro](overview-controls.md)
+   3. [Audiovisual Elements Intro](overview-audiovisual.md)
+   4. ...
+1. Text Elements (copy from existing docs index page)
+    1. Label (existing page)
+    2. Header (existing page)
+    3. Paragraph (existing page)
+    4. ...
+1. Controls (copy from existing docs index page)
+    1. Button
+    1. Slider
+    1. Checkbox
+    1. ...
+1. Audiovisual Elements
+    1. Image
+    1. Video
+    1. Audio
+    1. ...
+6. ...
+
 
 [Next -->](overview-text-elements.md)
