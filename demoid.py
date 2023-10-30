@@ -2,6 +2,7 @@ from nicegui import ui
 from nicegui import native_mode
 
 true, false, none = True, False, None
+DEBUG = false
 
 # ------------------------------------------------
 
@@ -31,13 +32,13 @@ def findall (searchids, startnode = none) :
 
 	classlist = searchids.split ('.')
 
-	matches = []
-
 	# --- gather all nodes under startnode
 	# use a set so each node only appears once; assumes ui elements implement ==
 
 	checknodes = set (startnode._collect_descendants ())
 	checknodes.add (startnode)
+
+	matches = []
 
 	while classlist :
 
@@ -46,7 +47,7 @@ def findall (searchids, startnode = none) :
 		klass = classlist.pop (0)
 		matches = [ x for x in checknodes if klass in x._classes ]
 
-		print (f'{ klass = } : found { len (matches) } : { matches }')
+		DEBUG and print (f'{ klass = } : found { len (matches) } : { matches }')
 
 		# --- are we done ?
 
@@ -60,7 +61,8 @@ def findall (searchids, startnode = none) :
 			checknodes.add (node)
 			checknodes.update (node._collect_descendants ())
 			desc = node._collect_descendants ()
-			print (f'found { len (desc) } descendants : { desc }')
+			
+			DEBUG and print (f'found { len (desc) } descendants : { desc }')
 
 		matches = []
 
@@ -88,7 +90,7 @@ def change_color (node, color) :
 def update_buttons (searchids, color) :
 
 	nodes = findall (searchids)
-	print (f'changing { len (nodes) } { searchids } to { color }')
+	DEBUG and print (f'changing { len (nodes) } { searchids } to { color }')
 
 	for node in nodes :
 
