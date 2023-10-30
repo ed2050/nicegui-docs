@@ -50,11 +50,12 @@ The remaining pages in this section provide examples of the concepts above by bu
    1. [Text Elements Intro](overview-text-elements.md)
    2. [Controls Intro](overview-controls.md)
    3. [Audiovisual Elements Intro](overview-audiovisual.md)
-   4. [Data Elements Intro](overview-data.md)
-   5. [Page Layout Intro](overview-layout.md)
-   6. [Styling & Appearance Intro](overview-styles.md)
-   7. [Actions & Events Intro](overview-events.md)
-   8. [Configuring & Deploying Intro](overview-deploying.md)
+   4. [Data Elements Intro](overview-data.md)  _probably don't need a separate section on data elements.  suggest removing from overview_
+   5. [Binding Properties](overview-binding.md)  _binding concept is very important to introduce early with simple example.  data elements could be introduced here as part of binding example if desired_
+   6. [Page Layout Intro](overview-layout.md)  
+   7. [Styling & Appearance Intro](overview-styles.md)   _briefly introduce element styles, default styles, and css (as optional)_
+   8. [Actions & Events Intro](overview-events.md)   _show on_click handler for button_
+   9. [Configuring & Deploying Intro](overview-deploying.md)  _basics of ui.run, system architecture (fastapi, quasar, tailwind)_
 1. Text Elements (copy from existing docs index page)
     1. Label (existing page)
     2. Header (existing page)
