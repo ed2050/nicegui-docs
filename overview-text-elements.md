@@ -32,7 +32,7 @@ ui.run ()
 The link is created with `ui.link`.  Note that we added `with` before `ui.label`.  This indicates that everything in the `with` block is nested under our label in the element tree.  We can add as many elements as we want inside the `with`.  Each one will be a child of the label node.
 
 > [!NOTE]
-> This nesting technique is crucial to using Nicegui.  How you nest elements affects how your pages will be created.
+> This nesting technique is crucial to using Nicegui.  How you nest elements affects how your pages will be structured.
 
 ## Alternate Syntax
 
