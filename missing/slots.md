@@ -1,0 +1,2 @@
+Usually NiceGUI looks into its "slot stack" to see the most recent context. This includes the client (i.e. the browser tab), the UI element, and the slot. The slot is a concept from the Vue framework: Each element has a default slot, which is where child elements are placed. But some elements have multiple slots, e.g. QTable has one for the header, one for the pagination, one for body cells and so on. Therefore NiceGUI elements also have one or more slots.  from https://github.com/zauberzeug/nicegui/discussions/2026#discussioncomment-7592144
+
