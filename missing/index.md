@@ -1,4 +1,6 @@
-# Undocumented structures
+# Missing Items
+
+These items are undocumented in nicegui docs.
 
 1. nicegui.client api
 2. what is client.id?  see https://github.com/zauberzeug/nicegui/discussions/872#discussioncomment-5776545
