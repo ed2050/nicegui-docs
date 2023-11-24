@@ -1,6 +1,6 @@
 # Client
 
-to get client ip :
+to get client ip without await client.connected () :
 ```
 @ui.page("/")
 async def index(request: Request):
