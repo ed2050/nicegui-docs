@@ -15,5 +15,5 @@
 13. access url of current page
 14. wtf is context and how does it work?
 15. what is request object and how to get it -- see https://github.com/zauberzeug/nicegui/discussions/2026#discussioncomment-7592144 (broken link to fastapi)
-16. 
+16. handling query params
 
