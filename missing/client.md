@@ -1,3 +1,14 @@
+# Client
+
+to get client ip :
+```
+@ui.page("/")
+async def index(request: Request):
+   connect_ip = request.client.host
+```
+
+All client fields :
+   
 ```py
 ----- client  -----
     body_html = 
