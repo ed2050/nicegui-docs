@@ -10,3 +10,6 @@
 8. tailwind docs
 9. how to change page title dynamically  -- see https://github.com/zauberzeug/nicegui/discussions/1436#discussion-5528911
 10. dealing with multiple clients and refresh state (one browser multiple tabs)
+11. globals - state is same across _all_ clients / connections
+
+
