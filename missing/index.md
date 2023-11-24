@@ -7,5 +7,6 @@
 5. wtf are slots?
 6. quasar docs
 7. fastapi docs
-8. how to change page title dynamically  -- see https://github.com/zauberzeug/nicegui/discussions/1436#discussion-5528911
-9. 
+8. tailwind docs
+9. how to change page title dynamically  -- see https://github.com/zauberzeug/nicegui/discussions/1436#discussion-5528911
+10. 
