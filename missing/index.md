@@ -20,5 +20,5 @@ These items are undocumented in nicegui docs.
 16. what is request object and how to get it -- see https://github.com/zauberzeug/nicegui/discussions/2026#discussioncomment-7592144 (broken link to fastapi)
 17. handling query params
 18. how to do redirects
-19. 
+19. that request params (path, query) are SPACE SENSITIVE!!!  @ui.page ('/foo/{num}/') works, @ui.page ('/foo/{ num }/') doesnt!
 
