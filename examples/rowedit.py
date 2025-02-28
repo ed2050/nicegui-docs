@@ -1,3 +1,5 @@
+# brython script to move edit buttons next to corresponding row
+
 import browser
 
 from browser import window
